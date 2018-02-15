@@ -1,0 +1,69 @@
+body {
+  background: #eedbfc;
+  font-family: "Oswald", sans-serif;
+}
+p {
+  font-family: "Raleway", sans-serif;
+}
+nav {
+  position: fixed;
+  background: #995dc6;
+  font-family: "Josefin Sans", sans-serif;
+}
+#about {
+  background: #E0C5F7;
+  padding: 60px 20px 10px 20px;
+  width: 95%;
+  margin: 0px auto;
+}
+#about img {
+  height: auto;
+  width: 480px;
+  padding-top:25px;
+  margin-left: 40px;
+}
+#learned {
+  width: 95%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 50px;
+}
+#learned div {
+  border-left: solid white 5px;
+}
+#learned div:first-child {
+  border-left: none;
+}
+#learned ul{
+  list-style-type:none;
+  font-size: 30px;
+  display: table;
+  margin: 0px auto;
+  padding: 0px;
+}
+#learned .text-examples li:nth-child(1) {
+  font-family: "Pacifico", cursive;
+}
+#learned .text-examples li:nth-child(2) {
+  font-family: "Dancing Script", cursive;
+}
+#learned .text-examples li:nth-child(3) {
+  font-family: "Homemade Apple", cursive;
+}
+#learned img {
+  border-radius: 300px;
+  width: 490px;
+  height: 275px;
+}
+#goal {
+  margin: 0px auto;
+  width: 95%;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 50px;
+}
+#goal div{
+  text-align: left;
+  padding-left: 2em;
+  padding-top: .5em;
+}
